@@ -1,0 +1,6 @@
+discord
+yfinance
+requests
+stockstats
+python-dotenv
+schedule
