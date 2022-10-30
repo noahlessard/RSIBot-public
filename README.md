@@ -38,6 +38,7 @@ The token will be on the actual discord bot account, the webhook will be in a ch
 
 List of the commands for the NoLogin version:
 ```
+```
 $help -> links to the github, and this readme page
 ```
 ```
