@@ -1,23 +1,6 @@
 # rsibot
-An automated RSI and MACD analysis bot for discord
 
-
-TODO:
-
-Add error handeling in discord -> not right time, start process twice... etc
-Make customizable amount for search parameters
-Add reversesplit/volume capability?
-Make a $status that displays running jobs
-Make discord bot run no matter what
-
-[DONE] Add a time to run that is self contained, no cron
-[DONE] Make prefab amount for search parameters
-[DONE] Explain how to make env files
-[DONE] Make a Help command
-[DONE] Add an estimated time for complete scan?
-[DONE] Add image scraping from stockcharts?
-[DONE] Keep rsi amount to add emojis next to printed list
-
+An automated RSI and MACD analysis bot for discord. Features scanning for stocks that expected to improve, scheduling scans, and charting individual stocks.
 
 # Installation
 
@@ -28,8 +11,10 @@ Run ```pip3 install -r requirements.txt``` to install all of the nessacry librar
 Go into the NoLogin folder and create a logins.env file, containing the correct discord token and webhook.
 
 Example: 
-```TOKEN:'token'
-DISCORD_WEBHOOK:'webhook'```
+```
+TOKEN:'token'
+DISCORD_WEBHOOK:'webhook'
+```
 
 The token will be on the actual discord bot account, the webhook will be in a channel on discord. 
 
@@ -37,7 +22,6 @@ The token will be on the actual discord bot account, the webhook will be in a ch
 # Commands
 
 List of the commands for the NoLogin version:
-```
 ```
 $help -> links to the github, and this readme page
 ```
